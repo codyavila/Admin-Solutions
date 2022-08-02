@@ -1,5 +1,5 @@
 import React from 'react'
-import 'new.scss'
+import './new.scss'
 
 const New = () => {
   return (
