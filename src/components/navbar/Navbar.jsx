@@ -15,19 +15,28 @@ const Navbar = () => {
         <div className='search'>
           <input type='text' placeholder='Search...' />
           <SearchIcon />
-          <div className='items'>
-            <div className='item'>
-              <NotificationsIcon />
-            </div>
-            <div className='item'>
-              <ChatIcon />
-            </div>
-            <div className='item'>
-              <FormatListBulletedIcon />
-            </div>
-            <div className='item'>
-              <DarkModeIcon />
-            </div>
+        </div>
+        <div className='items'>
+          <div className='item'>
+            <NotificationsIcon className='icon' />
+            <div className='counter'>11</div>
+          </div>
+          <div className='item'>
+            <ChatIcon className='icon' />
+            <div className='counter'>4</div>
+          </div>
+          <div className='item'>
+            <FormatListBulletedIcon className='icon' />
+          </div>
+          <div className='item'>
+            <DarkModeIcon className='icon' />
+          </div>
+          <div className='item'>
+            <img
+              src='https://images.pexels.com/photos/12871449/pexels-photo-12871449.jpeg'
+              alt='profile'
+              className='avatar'
+            />
           </div>
         </div>
       </div>
