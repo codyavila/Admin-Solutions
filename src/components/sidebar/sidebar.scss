@@ -43,8 +43,41 @@
         cursor: pointer;
 
         &:hover {
-            background-color: #ece8ff;
+          background-color: #ece8ff;
         }
+
+        .icon {
+          font-size: 18px;
+          color: #7451f8;
+        }
+
+        span {
+          font-size: 13px;
+          font-style: 600;
+          color: #888;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    .colorOption {
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      border: 1px solid #7451f8;
+      cursor: pointer;
+      margin: 5px;
+
+      &:nth-child(1) {
+        background-color: #212121;
+      }
+      &:nth-child(2) {
+        background-color: rgb(255, 253, 235);
       }
     }
   }

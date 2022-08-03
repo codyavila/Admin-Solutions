@@ -23,55 +23,58 @@ const Sidebar = () => {
         <ul>
           <p className='title'>MAIN</p>
           <li>
-            <DashboardIcon />
+            <DashboardIcon className='icon' />
             <span>Dashboard</span>
           </li>
           <li>
-            <PersonIcon />
+            <PersonIcon className='icon' />
             <span>Users</span>
           </li>
           <p className='title'>INVENTORY</p>
           <li>
-            <InventoryIcon />
+            <InventoryIcon className='icon' />
             <span>Products</span>
           </li>
           <li>
-            <ShoppingCartCheckoutIcon />
+            <ShoppingCartCheckoutIcon className='icon' />
             <span>Orders</span>
           </li>
           <li>
-            <LocalShippingIcon />
+            <LocalShippingIcon className='icon' />
             <span>Deliveries</span>
           </li>
           <p className='title'>MANAGEMENT</p>
           <li>
-            <QueryStatsIcon />
+            <QueryStatsIcon className='icon' />
             <span>Stats</span>
           </li>
           <li>
-            <NotificationsActiveIcon />
+            <NotificationsActiveIcon className='icon' />
             <span>Notifications</span>
           </li>
           <li>
-            <FolderIcon />
+            <FolderIcon className='icon' />
             <span>Logs</span>
+          </li>
+          <li>
+            <SettingsIcon className='icon' />
+            <span>Settings</span>
           </li>
           <p className='title'>USER</p>
           <li>
-            <SettingsIcon />
-            <span>Settings</span>
-          </li>
-          <li>
-            <ManageAccountsIcon />
+            <ManageAccountsIcon className='icon' />
             <span>Profile</span>
           </li>
           <li>
-            <LogoutIcon />
+            <LogoutIcon className='icon' />
             <span>Logout</span>
           </li>
         </ul>
       </div>
-      <div className='bottom'></div>
+      <div className='bottom'>
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   )
 }
