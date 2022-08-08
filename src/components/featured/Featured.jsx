@@ -24,23 +24,23 @@ const Featured = () => {
         <div className='summary'>
           <div className='item'>
             <div className='itemTitle'>Target</div>
-            <div className='itemResult'>
+            <div className='itemResult negative'>
               <KeyboardArrowDown fontSize='small' />
-              <div className='resultAmount'>$12,000</div>
+              <div className='resultAmount'>$1,340</div>
             </div>
           </div>
           <div className='item'>
-            <div className='itemTitle'>Target</div>
-            <div className='itemResult'>
-              <KeyboardArrowDown fontSize='small' />
-              <div className='resultAmount'>$12,000</div>
+            <div className='itemTitle'>Last Week</div>
+            <div className='itemResult positive'>
+              <KeyboardArrowUp fontSize='small' />
+              <div className='resultAmount'>$4,210</div>
             </div>
           </div>
           <div className='item'>
-            <div className='itemTitle'>Target</div>
-            <div className='itemResult'>
-              <KeyboardArrowDown fontSize='small' />
-              <div className='resultAmount'>$12,000</div>
+            <div className='itemTitle'>Last Month</div>
+            <div className='itemResult positive'>
+              <KeyboardArrowUp fontSize='small' />
+              <div className='resultAmount'>$6,976</div>
             </div>
           </div>
         </div>
