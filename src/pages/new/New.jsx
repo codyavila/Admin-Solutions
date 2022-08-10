@@ -1,3 +1,4 @@
+import { DriveFolderUpload } from '@mui/icons-material'
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
@@ -21,6 +22,12 @@ const New = () => {
           </div>
           <div className='right'>
             <form>
+              <div className='formInput'>
+                <label>
+                  <DriveFolderUpload />
+                </label>
+                <input type='file' />
+              </div>
               <div className='formInput'>
                 <label>Username</label>
                 <input type='text' placeholder='Enter Username' />
@@ -46,6 +53,7 @@ const New = () => {
                 <input type='text' placeholder='Enter Address' />
               </div>
             </form>
+            <button>Send</button>
           </div>
         </div>
       </div>
