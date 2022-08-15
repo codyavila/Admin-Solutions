@@ -13,8 +13,10 @@ to easily be able to do CRUD actions on projects.
 
 ## Planned Features
 
-Again, this is a slow burner project. Over time, I was to add
+Again, this is a slow burner project. Over time, I want to add
 - Chat functionality.
 - Notification system.
+- Profile Settings.
+- File Management.
 
 This is also meant to change with different projects, so different projects will need different feature sets.
