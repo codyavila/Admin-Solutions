@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './navbar.scss'
 import SearchIcon from '@mui/icons-material/Search'
 import DarkModeIcon from '@mui/icons-material/DarkMode'
@@ -7,8 +7,11 @@ import NotificationImportantIcon from '@mui/icons-material/NotificationImportant
 import ChatIcon from '@mui/icons-material/Chat'
 import MarkUnreadChatAltIcon from '@mui/icons-material/MarkUnreadChatAlt'
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted'
+import { DarkModeContext } from '../../context/darkModeContext'
 
 const Navbar = () => {
+  const { dispatch } = useContext(DarkModeContext)
+
   return (
     <div className='navbar'>
       <div className='wrapper'>
@@ -29,7 +32,10 @@ const Navbar = () => {
             <FormatListBulletedIcon className='icon' />
           </div>
           <div className='item'>
-            <DarkModeIcon className='icon' />
+            <DarkModeIcon
+              className='icon'
+              onClick={() => dispatch({ type: 'TOGGLE' })}
+            />
           </div>
           <div className='item'>
             <img
