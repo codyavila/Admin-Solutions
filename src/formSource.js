@@ -47,7 +47,7 @@ export const productInputs = [
     id: 1,
     label: 'Title',
     type: 'text',
-    placeholder: 'Apple Macbook Pro'
+    placeholder: 'Apple MacBook Pro'
   },
   {
     id: 2,
